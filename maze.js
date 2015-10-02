@@ -23,7 +23,7 @@ function mouseOver(){
 
 function gameEnd(){
     if (win){
-        $("status").innerHTML=("CONGRADULATIONS. YOU WON!!!!");
+        $("status").innerHTML=("CONGRATULATIONS. YOU WON!!!!");
     }else{
         $("status").innerHTML=("You Lose. Try Again");
     }
